@@ -104,8 +104,6 @@ def lex(string: object):
             string = string[1:]
         else:
             raise Exception("Unknown character: {}".format(string[0]))
-    for index, element in enumerate(tokens):
-        print(f"Index {index}: {element}")
     return tokens
 
 
